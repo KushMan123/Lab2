@@ -13,6 +13,11 @@ class LinkedList{
 		~LinkedList();
 		bool isEmpty();
 		void addToHead(int data);
+		void add(int data, Node* &predecessor);
 		void addToTail(int data);
+		void removeFromHead();
+		void remove(int data);
+		bool retrieve( int data , Node* &outputptr);
+		
 		void traverse();
 };
